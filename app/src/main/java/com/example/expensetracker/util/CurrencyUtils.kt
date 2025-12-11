@@ -84,6 +84,6 @@ object CurrencyUtils {
      * Format percentage
      */
     fun formatPercentage(percentage: Double): String {
-        return String.format(kenyaLocale, "%.1f%%", percentage)
+        return String.format(kenyaLocale, "%.2f%%", percentage)
     }
 }
